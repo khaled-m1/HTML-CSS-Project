@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Lato:wght@300;400;700&family=Tajawal:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    background-image: url(background-image.png);
+}
+/*header*/
+.header {
+    box-sizing: border-box; 
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .profile-img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      padding: 20px;
+
+  }
+  .profile-text {
+      font-size: 20px;
+      color: #000;
+      margin: 20px;
+      padding: 20px;
+  }
+  hr {
+     border-bottom: 1px solid #000;
+     width: 30%;
+     margin: auto;
+  }
+  /*contact km*/
+  .contact {
+      margin-top: 25px;
+      text-align: center;
+      color: #000;
+  }
+  table {
+      width: 60% !important;
+      margin: auto;
+      text-align: center;
+      border:1px solid #000;
+  }
+ a {
+      text-decoration: none;
+      color: #000;
+  }
+  td {
+      height: 40px;
+  }
+  /*Edu section*/
+  .line-section {
+    margin-top: 35px !important;
+    border-bottom: 1px solid #000;
+    width: 30%;
+    margin: auto;
+  }
+  .educations {
+      text-align: center;
+      color: #000;
+  }
+  .educations table {
+      text-align: left;
+  }
+  /*Link btn*/
+  .link-page {
+      margin-top: 30px !important;
+      margin: auto;
+      width: 10%;
+  }
+  .button {
+    background-color: #336298;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  /*footer*/
+  footer {
+      color: #000;
+      margin-top: 20px;
+      text-align: center;
+  }
+  footer p {
+      margin-top: 5px;
+  }
+  /*Contact page*/
+  .form-contact {
+      width: 70%;
+      margin: auto;
+      margin-top: 130px;
+      color: #000;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
